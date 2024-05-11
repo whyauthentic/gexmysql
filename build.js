@@ -52,7 +52,7 @@ provide 'ghmattimysql'
 convar_category 'OxMySQL' {
 	'Configuration',
 	{
-		{ 'Connection string', 'mysql_connection_string', 'CV_STRING', 'mysql://user:password@localhost/database' },
+		{ 'Connection string', 'gex_mysql_connection_string', 'CV_STRING', 'mysql://user:password@localhost/database' },
 		{ 'Debug', 'mysql_debug', 'CV_BOOL', 'false' }
 	}
 }
